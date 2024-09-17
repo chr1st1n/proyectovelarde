@@ -1,0 +1,47 @@
+.programacion-botones{
+    display: inline-block;
+    background-color: rgb(143, 212, 64);
+    color: rgb(53, 116, 216);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.programacionWeb-botones{
+    display: inline-block;
+    background-color: rgb(143, 212, 64);
+    color: rgb(53, 116, 216);
+    padding: 10px 30px;
+    text-decoration: none; 
+}
+.inglesTecnico-botones{
+    display: inline-block;
+    background-color: rgb(143, 212, 64);
+    color: rgb(53, 116, 216);
+    padding: 10px 30px;
+    text-decoration: none; 
+}
+nav{
+    background-color: rgb(47, 148, 163);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:540px){
+    nav{
+        background-color: black;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .menu-botones{
+        margin: 15px;
+    } 
+}
+body {
+background-image: url(3.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 70px;
+    color: rgb(70, 202, 216);
+}
